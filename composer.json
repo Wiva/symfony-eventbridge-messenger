@@ -18,5 +18,6 @@
             "name": "David Lombardía",
             "email": "david@wiva.es"
         }
-    ]
+    ],
+    "minimum-stability": "stable"
 }
