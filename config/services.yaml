@@ -1,0 +1,12 @@
+services:
+    Wiva\EventBridgeMessenger\EventBridgeSerializer:
+        arguments: []
+        tags:
+            - { name: 'messenger.transport.serializer' }
+
+    Wiva\EventBridgeMessenger\EventBridgeTransportFactory:
+        arguments:
+            $serializer: '@Wiva\EventBridgeMessenger\EventBridgeSerializer'
+        tags:
+            - { name: 'messenger.transport_factory' }
+    

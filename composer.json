@@ -1,0 +1,22 @@
+{
+    "name": "wiva/symfony-eventbridge-messenger",
+    "description": "Symfony Messenger Transport for Amazon EventBridge",
+    "type": "symfony-bundle",
+    "version": "1.0.0",
+    "require": {
+        "aws/aws-sdk-php": "^3.0",
+        "symfony/messenger": "^6.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wiva\\EventBridgeMessenger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Lombardía",
+            "email": "david@wiva.es"
+        }
+    ]
+}
