@@ -2,7 +2,7 @@
 
 namespace Wiva\EventBridgeMessenger;
 
-interface EventBridgeDomainEvent
+interface EventBridgeEvent
 {
     public function toHeaders(): ?array;
     public function toPayload(): array;
